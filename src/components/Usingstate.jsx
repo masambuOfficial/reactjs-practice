@@ -16,9 +16,9 @@ function Usingstate() {
         }
         function handleSubmit() {
             if (email && name && profile) {
-            setIsSubmitted(true);
+                setIsSubmitted(true);
             } else {
-            alert("All fields are required!!");
+                alert("All fields are required!!");
             }
         }
         function resetState() {

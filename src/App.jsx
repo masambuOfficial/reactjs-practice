@@ -1,9 +1,11 @@
-import Usingstate from "./components/Usingstate";
+// import Usingstate from "./components/Usingstate";
+import Prop from "./components/props/Prop"
 
 function App() {
   return (
     <div>
-      <Usingstate />
+      <Prop />
+      {/* <Usingstate /> */}
     </div>
   )
 }

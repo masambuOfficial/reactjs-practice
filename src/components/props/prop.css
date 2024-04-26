@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* color: #2e2e2e; */
+  }
+  
+  .header{
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    margin: 0;
+    padding: 3rem 0rem;
+    height: 10%;
+  }
+  
+  #card__container{
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 5rem 0rem;
+  }
+  #card__container i{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    color: orangered;
+    font-size: 5rem;
+  }
+  #card__container p{
+    text-align: justify;
+    padding-top: 0.5rem;
+  }
+  
